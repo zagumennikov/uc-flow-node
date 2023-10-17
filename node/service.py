@@ -10,10 +10,10 @@ from uc_http_requester.requester import Request
 
 
 class NodeType(flow.NodeType):
-    id: str = 'Example'
+    id: str = 'Example_2'
     type: flow.NodeType.Type = flow.NodeType.Type.action
-    name: str = 'Example'
-    displayName: str = 'Example'
+    name: str = 'Example_name'
+    displayName: str = 'Example_display_name'
     icon: str = '<svg><text x="8" y="50" font-size="50">🤖</text></svg>'
     description: str = 'Example'
     properties: List[Property] = [
