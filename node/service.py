@@ -13,6 +13,7 @@ class NodeType(flow.NodeType):
     id: str = 'Example'
     type: flow.NodeType.Type = flow.NodeType.Type.action
     name: str = 'Example'
+    is_public: bool = False
     displayName: str = 'Example'
     icon: str = '<svg><text x="8" y="50" font-size="50">🤖</text></svg>'
     description: str = 'Example'
